@@ -1,31 +1,30 @@
-Source: shine-on-sddm-settings
+Source: big-crime-sddm-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
-Uploaders: Torsten Wohlfarth <towo@siduction.org>,
-           Ovidiu Angelescu <convbsd@siduction.net>
+Uploaders: Torsten Wohlfarth <towo@siduction.org>
 Build-Depends: debhelper (>= 11)
 Standards-Version: 4.1.4
 Vcs-Browser: https://git.siduction.org/extra/settings-sddm
 Vcs-Git: https://git.siduction.org/extra/settings-sddm.git
 Homepage: https://git.siduction.org/extra/settings-sddm
 
-Package: shine-on-sddm-settings
+Package: big-crime-sddm-settings
 Architecture: all
 Depends: ${misc:Depends},      
          sddm,
-         sddm-theme-shine-on,
+         sddm-theme-big-crime,
          libpam-systemd,
          gnome-icon-theme,
          gnome-icon-theme-symbolic
 Description: SDDM settings (installed mode)
  Meta-Package for distribution settings
 
-Package: shine-on-sddm-livesettings
+Package: big-crime-sddm-livesettings
 Architecture: all
 Depends: ${misc:Depends},
-         shine-on-sddm-settings,
-         sddm-theme-shine-on,
+         big-crime-sddm-settings,
+         sddm-theme-big-crime,
          libpam-systemd,
          gnome-icon-theme,
          gnome-icon-theme-symbolic
